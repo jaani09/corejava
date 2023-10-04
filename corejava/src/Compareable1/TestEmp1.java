@@ -19,8 +19,9 @@ public class TestEmp1 {
 		Collections.sort(emp,new ComparatorbyId() );
 	System.out.println(emp);
 	 ArrayList<Employee1>emp1 = new ArrayList<Employee1>(emp);
-	 Collections.sort(emp1, new ComparatorbyId(s));
-System.out.println(emp1);
+	 Object s;
+	Collections.sort(emp1, new ComparatorbyId());
+      System.out.println(emp1);
 		
 		}
 
